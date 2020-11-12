@@ -1,0 +1,20 @@
+version = 1
+
+test_patterns = [
+    "*/tests/**",
+    "**/__tests__/**"
+]
+
+exclude_patterns = [
+    "demo/**",
+    "docs/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["browser"]
+  plugins = ["react"]
+  dialect = "typescript"
