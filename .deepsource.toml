@@ -2,7 +2,8 @@ version = 1
 
 test_patterns = [
     "*/tests/**",
-    "**/__tests__/**"
+    "**/__tests__/**",
+    "**/*.e2e.*"
 ]
 
 exclude_patterns = [
