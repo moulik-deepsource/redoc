@@ -16,6 +16,5 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = ["browser"]
   plugins = ["react"]
-  dialect = "typescript"
+
